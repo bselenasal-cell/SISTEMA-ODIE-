@@ -66,7 +66,7 @@ void setup() {
   pinMode(BUTTON_PIN2, INPUT_PULLUP);
   pinMode(BUTTON_PIN3, INPUT_PULLUP);
 
-  // 🔴 Estado inicial: Rojo encendido, Verde apagado
+  // Estado inicial: Rojo encendido, Verde apagado
   digitalWrite(LED_ROJO, HIGH);
   digitalWrite(LED_VERDE, LOW);
 
